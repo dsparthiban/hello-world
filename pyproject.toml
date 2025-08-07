@@ -1,0 +1,15 @@
+# pyproject.toml for hello-world project
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hello-world"
+version = "0.1.0"
+description = "A simple hello world Python project."
+authors = [
+    { name="dsparthiban", email="your.email@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.7"
+license = { file = "LICENSE" }
